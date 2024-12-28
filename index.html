@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekolojik Kredi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <div class="recycle-symbol">♻️</div>
+            </div>
+            <h1>Ekolojik Kredi</h1>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="left-panel">
+            <button class="menu-btn" onclick="showContent('ekolojik_kredi_nedir')">Ekolojik Kredi Nedir?</button>
+            <button class="menu-btn" onclick="showContent('hazirlayanlar')">Hazırlayanlar</button>
+            <button class="menu-btn" onclick="showContent('geri_donusum_nedir')">Geri Dönüşüm Nedir?</button>
+            <button class="menu-btn" onclick="showContent('contact_us')">Bize Ulaşın</button>
+        </div>
+
+        <div class="right-panel">
+            <button class="main-btn" onclick="showContent('kayit_ol')">Kayıt Ol</button>
+            <button class="main-btn" onclick="showContent('veri_girisi')">Veri Girişi</button>
+            <button class="main-btn" onclick="showContent('veri_goruntule')">Veri Görüntüle</button>
+        </div>
+    </div>
+
+    <div id="content" class="content"></div>
+
+    <footer>
+        <p>Torbalı Anadolu Lisesi Coğrafya Proje Ödevi Ekolojik Kredi Örnek Sitesidir.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
