@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2d8b2b;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recycle-symbol {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.left-panel, .right-panel {
+    width: 25%;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-btn, .main-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu-btn:hover, .main-btn:hover {
+    background-color: #45a049;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2d8b2b;
+    color: white;
+}
+
+footer p {
+    margin: 5px;
+}
